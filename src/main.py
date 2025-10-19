@@ -3,7 +3,9 @@
 from fastapi import FastAPI
 
 #  Import FILES
-from api.events.routing import router as event_router
+from api.events import router as event_router
+
+# from api.events.routing import router as event_router
 
 #
 
